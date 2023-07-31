@@ -21,3 +21,10 @@ rules:
   steps:
   - intent: detail
   - action: action_restaurants_detail
+
+- rule: show distance
+  steps:
+  - intent: distance
+  - action: action_distance
+
+  

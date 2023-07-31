@@ -7,6 +7,8 @@ slots:
     - type: custom
       action: action_show_restaurants
 
+
+
 intents:
   - greet
   - goodbye
@@ -17,6 +19,7 @@ intents:
   - bot_challenge
   - restaurants
   - detail
+  - distance
 
 responses:
   utter_greet:
@@ -41,6 +44,7 @@ responses:
 actions:
   - action_show_restaurants
   - action_restaurants_detail
+  - action_distance
 
 session_config:
   session_expiration_time: 60

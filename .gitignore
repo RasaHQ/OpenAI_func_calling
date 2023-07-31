@@ -1,2 +1,5 @@
 .rasa
 .env
+__pycache__/
+venv/
+models/

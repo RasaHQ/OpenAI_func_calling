@@ -102,3 +102,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+
+- intent: distance
+  examples: |
+    - which of them have wifi and is closest
+    - which of them doesn't have wifi and is closest
+    - which of them have best rating and is closest
+    - for the above show the nearest
+    - which of them have wifi and is closest
+    - shortest distance
